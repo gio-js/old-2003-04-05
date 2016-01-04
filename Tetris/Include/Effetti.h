@@ -1,0 +1,11 @@
+char VisMenu();
+void PrimaSchermata();
+void modifica_tasto (int dx,int dy);
+void Tasto (int dx,int dy);
+void AttivaMouse (int *posx,int *posy);
+void Mouse (int stato,int xmin,int ymin,int xmax,int ymax);
+union REGS BottoniMouse (int bot);
+void MuoviMouse (int m);
+void VertMouse (int ymin,int ymax);
+void HoriMouse(int xmin,int xmax);
+union REGS PrendiXYMouse (void);
